@@ -1,9 +1,10 @@
 import React from "react";
 import closeIcon from "./assets/closeIcon.svg";
+import "./style/modal.css";
 
 const Modal = ({ setOpenModal, message }) => {
   return (
-    <div className="bg-black bg-opacity-60 fixed inset-0 z-50">
+    <div className="container">
       <div className="flex h-screen justify-center items-center">
         <div className="flex-col justify-center bg-white py-5 px-10 border-4 border-primary rounded-xl relative">
           <div className="flex text-base text-zinc-600">{message}</div>
