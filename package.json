@@ -1,8 +1,8 @@
 {
   "name": "@epourmo/react-modal-oc-p14-npm-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "modal component",
-  "main": "modal.js",
+  "main": "modal.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
