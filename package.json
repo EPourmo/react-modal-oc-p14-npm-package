@@ -1,6 +1,6 @@
 {
   "name": "@epourmo/react-modal-oc-p14-npm-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "modal component",
   "main": "modal.jsx",
   "scripts": {
@@ -25,5 +25,8 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@epourmo/react-modal-oc-p14-npm-package": "^1.0.2"
   }
 }
