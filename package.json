@@ -1,6 +1,6 @@
 {
   "name": "@epourmo/react-modal-oc-p14-npm-package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "modal component",
   "main": "modal.jsx",
   "scripts": {
