@@ -29,3 +29,8 @@ const Modal = ({ setOpenModal, message }) => {
 };
 
 export default Modal;
+
+Modal.propTypes = {
+  setOpenModal: PropTypes.func.isRequired,
+  message: PropTypes.string.isRequired,
+};
