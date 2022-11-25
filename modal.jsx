@@ -1,6 +1,7 @@
 import React from "react";
 import closeIcon from "./assets/closeIcon.svg";
 import "./style/modal.css";
+import PropTypes from "prop-types";
 
 /**
  * Modal react component
