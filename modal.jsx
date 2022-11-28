@@ -1,7 +1,7 @@
 import React from "react";
 import closeIcon from "./assets/closeIcon.svg";
 import "./style/modal.css";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 /**
  * Modal react component
@@ -31,7 +31,7 @@ const Modal = ({ setOpenModal, message }) => {
 
 export default Modal;
 
-Modal.propTypes = {
-  setOpenModal: PropTypes.func.isRequired,
-  message: PropTypes.string.isRequired,
-};
+// Modal.propTypes = {
+//   setOpenModal: PropTypes.func.isRequired,
+//   message: PropTypes.string.isRequired,
+// };
