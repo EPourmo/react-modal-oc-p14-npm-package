@@ -21,8 +21,7 @@
   "homepage": "https://github.com/EPourmo/react-modal-oc-p14-npm-package#readme",
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "prop-types": "^15.8.1"
+    "react-dom": "^18.2.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
