@@ -14,14 +14,14 @@ const Modal = ({ setOpenModal, message }) => {
       <div className="container-wrapper">
         <div className="message-wrapper">
           <div className="message">{message}</div>
-          <button
+          <div
             className="close-btn"
             onClick={() => {
               setOpenModal(false);
             }}
           >
             <img src={closeIcon} alt="close button" />
-          </button>
+          </div>
         </div>
       </div>
     </div>
